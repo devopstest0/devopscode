@@ -6,7 +6,7 @@
 APP_HOME=/opt/apps
 TOMCAT_HOME=/opt/apps/apache-tomcat-7.0.69
 JAVA_HOME=/opt/apps/jdk1.7.0_79
-INSTALLER_LOCATION=/opt/installers
+INSTALLER_LOCATION=/vagrant/installers
 
 
 # Function will install JDK 7 

@@ -5,7 +5,7 @@
 
 PKG_LIST="apache2, libapache2-mod-jk"
 WEB_HOME="/etc/apache2"
-SCRIPT_HOME=/opt/sourcecode/devopscode/scripts/web/
+SCRIPT_HOME=/vagrant/sourcecode/devopscode/scripts/web/
 
 function apache2_install()
 {
