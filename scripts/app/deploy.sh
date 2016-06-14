@@ -1,9 +1,6 @@
 #!/bin/bash 
 
 
-# Update tomcat_home variable 
-export TOMCAT_HOME=/opt/apps/apache-tomcat-deploy/
-
 BUILD=`md5sum /opt/apps/jenkins_home/jobs/Build/lastSuccessful/archive/target/helloproject.war|awk -F" " '{print $1}'`
 DEPLOY=`md5sum ${TOMCAT_HOME}/webapps/helloproject.war|awk -F" " '{print $1 }'`
 
