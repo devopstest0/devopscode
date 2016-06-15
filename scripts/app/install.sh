@@ -24,6 +24,8 @@ function tomcat_install()
 if [ ! -d ${TOMCAT_HOME} ] 
 then
 mkdir -p $APP_HOME && cd $APP_HOME && tar -xvzf ${INSTALLER_LOCATION}/apache-tomcat-7.0.69.tar.gz
+else 
+echo Tomcat is already installed. no action needed.
 fi
 }
 
